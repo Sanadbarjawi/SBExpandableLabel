@@ -1,6 +1,6 @@
 # SBExpandableLabel
 
-[![CI Status](https://img.shields.io/travis/sanadbarjawi/SBExpandableLabel.svg?style=flat)](https://travis-ci.org/sanadbarjawi/SBExpandableLabel)
+[![Build Status](https://app.bitrise.io/app/2a0e33b572ac8935/status.svg?token=R292zp8NGv6jdkJECeO-zQ&branch=master)](https://app.bitrise.io/app/2a0e33b572ac8935)
 [![Version](https://img.shields.io/cocoapods/v/SBExpandableLabel.svg?style=flat)](https://cocoapods.org/pods/SBExpandableLabel)
 [![License](https://img.shields.io/cocoapods/l/SBExpandableLabel.svg?style=flat)](https://cocoapods.org/pods/SBExpandableLabel)
 [![Platform](https://img.shields.io/cocoapods/p/SBExpandableLabel.svg?style=flat)](https://cocoapods.org/pods/SBExpandableLabel)
