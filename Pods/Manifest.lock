@@ -1,0 +1,16 @@
+PODS:
+  - SBExpandableLabel (0.1.0)
+
+DEPENDENCIES:
+  - SBExpandableLabel (from `.`)
+
+EXTERNAL SOURCES:
+  SBExpandableLabel:
+    :path: "."
+
+SPEC CHECKSUMS:
+  SBExpandableLabel: 71b528c23e314258b580d1d6e04a22a99412195f
+
+PODFILE CHECKSUM: fef583667d7e5bbe275456ffe7d10687f3884b9f
+
+COCOAPODS: 1.11.3

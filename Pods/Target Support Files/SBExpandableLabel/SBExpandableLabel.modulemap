@@ -1,0 +1,6 @@
+framework module SBExpandableLabel {
+  umbrella header "SBExpandableLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
