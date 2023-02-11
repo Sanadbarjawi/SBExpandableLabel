@@ -17,7 +17,7 @@
   },
   "swift_versions": "5",
   "platforms": {
-    "ios": "8"
+    "ios": "14"
   },
   "source_files": "SBExpandableLabel/SBExpandableLabel/Source/**/*.swift",
   "swift_version": "5"

@@ -427,11 +427,12 @@
 			};
 			name = Release;
 		};
-		54983AD609C2421EE1A93D9EFB555914 /* Debug */ = {
+		4FE128D2DA9B7DC6A0241999A6B3C822 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF34FCCB9724C82FD71E58667203B88B /* SBExpandableLabel.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -443,7 +444,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SBExpandableLabel/SBExpandableLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SBExpandableLabel/SBExpandableLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SBExpandableLabel/SBExpandableLabel.modulemap";
 				PRODUCT_MODULE_NAME = SBExpandableLabel;
@@ -687,11 +688,12 @@
 			};
 			name = Debug;
 		};
-		E5F8D29F93DB25198FF2D7061563F173 /* Release */ = {
+		CDC02D8848D64C34511022EE0C65D95B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70C10F962B3E809E3744393A206809CC /* SBExpandableLabel.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -703,7 +705,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SBExpandableLabel/SBExpandableLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SBExpandableLabel/SBExpandableLabel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SBExpandableLabel/SBExpandableLabel.modulemap";
 				PRODUCT_MODULE_NAME = SBExpandableLabel;
@@ -743,8 +745,8 @@
 		923AF25A9D64260DD5476C880572EFE3 /* Build configuration list for PBXNativeTarget "SBExpandableLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54983AD609C2421EE1A93D9EFB555914 /* Debug */,
-				E5F8D29F93DB25198FF2D7061563F173 /* Release */,
+				4FE128D2DA9B7DC6A0241999A6B3C822 /* Debug */,
+				CDC02D8848D64C34511022EE0C65D95B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
