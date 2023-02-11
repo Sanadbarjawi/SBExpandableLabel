@@ -10,11 +10,11 @@ import UIKit
 import SBExpandableLabel
 
 class ViewController: UIViewController {
-    @IBOutlet weak var labelFuck : SBExpandableLabel!
+    @IBOutlet weak var testLabel : SBExpandableLabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        labelFuck.expandableDelegate = self
-        labelFuck.addTrailing(with:
+        testLabel.expandableDelegate = self
+        testLabel.addTrailing(with:
             """
             aklsjdfjklsadf jklasdfjk asdjklf asdjklf asjdklf asjkld fkj
             aklsjdfjklsadf jklasdfjk asdjklf asdjklf asjdklf asjkld fkjaklsjdfjklsadf jklasdfjk asdjklf asdjklf asjdklf asjkld fkjaklsjdfjklsadf jklasdfjk asdjklf asdjklf asjdklf asjkld fkjaklsjdfjklsadf jklasdfjk asdjklf asdjklf asjdklf asjkld fkjaklsjdfjklsadf jklasdfjk asdjklf asdjklf asjdklf asjkld fkjaklsjdfjklsadf jklasdfjk asdjklf asdjklf asjdklf asjkld fkj.
